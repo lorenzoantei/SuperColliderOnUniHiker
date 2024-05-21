@@ -63,4 +63,18 @@ cmake -DCMAKE_BUILD_TYPE=Release -DSUPERNOVA=OFF -DSC_ED=OFF -DSC_EL=OFF -DSC_VI
 cmake --build . --config Release --target all --  
 ```
 
-NOTE: The above command will take a good hour or so ...
+NOTE: The last cmake command will take a good hour or so ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
