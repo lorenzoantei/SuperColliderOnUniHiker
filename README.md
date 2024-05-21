@@ -65,9 +65,19 @@ cmake --build . --config Release --target all --
 
 NOTE: The last cmake command will take a good hour or so ...
 
+```
+sudo cmake --build . --config Release --target install
+sudo ldconfig
 
-
-
+echo /usr/bin/jackd -P75 -p16 -dalsa -dhw:2 -r44100 -p1024 -n3 > ~/.jackdrc
+```
+... or (alternative):
+```
+echo /usr/bin/jackd -R -P 75 -T -d alsa -d hw:0 -r 44100 -p 2048 -n 3 > ~/.jackdrc
+```
+Notes: 
+use "nano ~/.jackdrc" to further edit jack settings, if need be
+dhw:2 is the USB audio adapter
 
 
 
