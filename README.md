@@ -1,7 +1,7 @@
 # SuperCollider Software | UniHiker board
 Install the SuperCollider audio synthesis software on your DFRobot UniHiker development board
 
-initiate a ssh session to your DFRobot Development Board.
+initiate a SSH session to your DFRobot Development Board.
 
 Follow the steps below:
 ```
@@ -50,7 +50,7 @@ sudo sh -c "echo @audio - rtprio 75 >> /etc/security/limits.conf"
 sudo reboot now
 ```
 
-# Login again ...
+Login again through SSH  ...
 
 ```
 cd ~ 
@@ -63,4 +63,4 @@ cmake -DCMAKE_BUILD_TYPE=Release -DSUPERNOVA=OFF -DSC_ED=OFF -DSC_EL=OFF -DSC_VI
 cmake --build . --config Release --target all --  
 ```
 
-# The above command will take a good hour or so ...
+NOTE: The above command will take a good hour or so ...
