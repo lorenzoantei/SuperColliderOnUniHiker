@@ -1,6 +1,8 @@
 # SuperCollider Software | UniHiker board
 The DFRobot UniHiker Development board does not come with audio IN/OUT, but if you have a USB-A Audio adapter lying around (shown below), please follow the instructions on this page.
 
+
+<img src="https://github.com/ErikOostveen/SuperColliderOnUniHiker/assets/40121318/cd177af0-8d00-4c6d-b06e-793d38a1caa2" width="225" />
 <img src="https://github.com/ErikOostveen/SuperColliderOnUniHiker/assets/40121318/bf1fda80-4886-407f-ab96-9014c3f05585" width="225" />
 
 
