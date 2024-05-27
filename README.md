@@ -4,7 +4,7 @@ The DFRobot UniHiker Development board does not come with audio IN/OUT, but if y
 <img src="https://github.com/ErikOostveen/SuperColliderOnUniHiker/assets/40121318/bf1fda80-4886-407f-ab96-9014c3f05585" width="225" />
 
 
-Install the SuperCollider audio synthesis software on your DFRobot UniHiker development board
+Install the SuperCollider audio synthesis software on your DFRobot UniHiker development board:
 
 initiate a SSH session to your DFRobot Development Board.
 
