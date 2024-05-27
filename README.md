@@ -107,6 +107,14 @@ Play this cinematic drone by entering the following:
 sclang demoSound.scd
 ```
 
+Ctrl + C will take you back to the prompt.
+
+Try changing values in the demoSound.scd file and listen to the drone again.
+
+Here are two sources to get you into SuperCollider:
+
+https://sccode.org/1-5eN
+https://w2.mat.ucsb.edu/l.putnam/sc3one/index.html
 
 
 
