@@ -111,15 +111,10 @@ Ctrl + C will take you back to the prompt.
 
 Try changing values in the demoSound.scd file and listen to the drone again.
 
-Here are two sources to get you into SuperCollider:
+Here are a few sources to get you into SuperCollider:
 
+https://supercollider.github.io/
+<br/><br/>
 https://sccode.org/1-5eN
+<br/><br/>
 https://w2.mat.ucsb.edu/l.putnam/sc3one/index.html
-
-
-
-
-
-
-
-
