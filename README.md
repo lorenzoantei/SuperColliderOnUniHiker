@@ -87,19 +87,25 @@ use "nano ~/.jackdrc" to further edit jack settings, if need be. dhw:2 is the US
 
 Create a file - for example:
 
-...
+```
 sudo nano demoSound.scd
-'''
+```
 
 Copy/Paste the code below - and save this file
 
-...
+```
 s.waitForBoot{
  (
   play{a=ar(PinkNoise,5e-4);ar(GVerb,({ar(Ringz,a*LFNoise1.kr(0.2),exprand(60,8000),3)}!40).sum,50,99).tanh}
  )
 }
-...
+```
+
+Play this cinematic drone by entering the following:
+
+```
+sclang demoSound.scd
+```
 
 
 
