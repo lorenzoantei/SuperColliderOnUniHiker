@@ -15,6 +15,7 @@ Follow the steps below:
 sudo apt remove '*jack*'
 sudo apt-get update
 sudo apt-get upgrade
+# This may take a while ...
 sudo apt-get dist-upgrade
 cd ~ 
 git clone https://github.com/jackaudio/jack2.git 
