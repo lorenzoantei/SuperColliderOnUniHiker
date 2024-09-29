@@ -24,8 +24,8 @@ cd jack2
 ./waf 
 su -c "./waf install" 
 sudo ldconfig 
-sudo apt-get install jackd (Select the onscreen "Yes")
-apt-get install libjack-jackd2-dev 
+sudo apt-get install jackd # (Select the onscreen "Yes")
+sudo apt-get install libjack-jackd2-dev 
 ```
 
 At this point entering "jackd" should output its normal usage menu and "apt list --installed | grep jack" should return the following:
@@ -76,7 +76,14 @@ NOTE: The last cmake command will take a good hour or so ...
 ```
 sudo cmake --build . --config Release --target install
 sudo ldconfig
+```
 
+Then check which card ID has your devices:
+```
+aplay -l
+```
+and add it to jack config file (card #2 in this example):
+```
 echo /usr/bin/jackd -P75 -p16 -dalsa -dhw:2 -r44100 -p1024 -n3 > ~/.jackdrc
 ```
 ... or (alternative):
