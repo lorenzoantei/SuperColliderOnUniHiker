@@ -24,8 +24,8 @@ cd jack2
 ./waf 
 su -c "./waf install" 
 sudo ldconfig 
-sudo apt-get install jackd (Select the onscreen "Yes")
-apt-get install libjack-jackd2-dev 
+sudo apt-get install jackd # (Select the onscreen "Yes")
+sudo apt-get install libjack-jackd2-dev 
 ```
 
 At this point entering "jackd" should output its normal usage menu and "apt list --installed | grep jack" should return the following:
